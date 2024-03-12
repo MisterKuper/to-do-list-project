@@ -71,5 +71,14 @@ form button:hover {
     font-size: 1rem;
 }
 .complete-btn {
-    background: #000;
+    background: #89d60c;
+}
+.todo-item {
+    padding: 0 0.5rem;
+}
+
+/* preventing clicking on the img */
+.fa-trash,
+.fa-check {
+    pointer-events: none;
 }
