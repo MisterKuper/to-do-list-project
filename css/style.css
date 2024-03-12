@@ -112,7 +112,11 @@ select {
     padding: 1rem;
     width: 10rem;
     color: #fa9017;
+    font-weight: 700;
     cursor: pointer;
+}
+option {
+    font-weight: 700;
 }
 .select::after{
     padding: 1rem;
