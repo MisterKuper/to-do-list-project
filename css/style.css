@@ -10,7 +10,7 @@
     --white-color: #fff;
 }
 body {
-    background-image: linear-gradient(130deg, #1B69A1, #241D9E, #781C9E);
+    background-image: linear-gradient(130deg, #241D9E, #781C9E);
     color: var(--white-color);
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -18,6 +18,22 @@ body {
 
 header {
     font-size: 1.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    margin: 0 auto;
+    max-width: 700px;
+    min-height: 200px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+    backdrop-filter: blur(15px);
 }
 
 header,
@@ -59,6 +75,7 @@ form button:hover {
     justify-content: space-between;
     align-items: center;
     margin: 0.5rem;
+    max-width: 90%;
     background: var(--white-color);
     color: #000;
     transition: all 0.5s ease;
